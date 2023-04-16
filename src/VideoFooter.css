@@ -1,0 +1,54 @@
+.videofooter{
+position: relative;
+color: white;
+bottom: 200px;
+margin-left: 40px;
+display: flex;
+
+
+}
+.videofooter_text{
+    flex:1;
+}
+.videofooter_text>p{
+    padding-bottom: 20px;
+
+}
+.videofooter_text>h3{
+    padding-bottom:20px ;
+}
+.morquee{
+    position: relative;
+    left: 30px;
+    width:200px;
+  
+    background-color:#BBC2CC;
+    opacity: 0.4;
+    color: rgb(9, 9, 9);
+    border-radius: 10px;
+}
+.videofooter_icon{
+    position: absolute;
+}
+.videofooter_ticker>.ticker{
+height:fit-content;
+margin-left: 30px;
+width:60%;
+}
+
+.videofooter_record{
+animation:spinTheRecord infinite 5s linear;
+height:80px;
+filter:invert(1);
+position: absolute;
+bottom: 0;
+right: 20px;
+}
+@keyframes spinTheRecord {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
