@@ -37,6 +37,7 @@ width:60%;
 }
 
 .videofooter_record{
+    border-radius: 100px;
 animation:spinTheRecord infinite 5s linear;
 height:80px;
 filter:invert(1);
